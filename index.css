@@ -1,0 +1,38 @@
+#nav{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    border: 1px solid blue;
+}
+
+#nav li {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 5px;
+}
+h1 {
+    text-align: center;
+}
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border: 6px solid blue;
+    margin: 25px;
+    background-color: #eae2b7;
+    padding: 30px;
+}
+.flex-container div {
+    margin: 10px;
+    width: 400px;
+    background-color: #fcbf49;
+    border: 3px solid grey;
+}
+p {
+    padding: 10px;
+    padding-left: 15px;
+}
